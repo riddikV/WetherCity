@@ -1,0 +1,94 @@
+/*footer*/
+.footer{
+	background-color: #2C2C2C;
+	padding-top: calc(var(--index-x)*3);
+
+	font-family: 'Acme', sans-serif;
+	font-family: 'Fira Code', monospace;
+}
+.footer__column{
+	display: grid;
+	grid-template-areas: "one log two";
+	grid-template-columns: 2fr 1fr 2fr;
+
+	justify-content: center;
+}
+
+.footer__column_1{
+	grid-area: one;
+	display: flex;
+	justify-content: space-around;
+	padding-left: calc(var(--index-x)*5);
+}
+.footer__column_img{
+	grid-area: log;
+	display: flex;
+	align-items: center;
+	justify-self: center;
+}
+.footer__column_2{
+	grid-area: two;
+	margin: auto 0;
+	padding-left: calc(var(--index-x)*5);
+}
+
+.footer__column_1_1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(var(--index-x)*4.5);
+}
+.text_glav_one{
+	color: #ffffff;
+	font-size: calc(var(--index-x)*.6);
+}
+.text_glav_one_2{
+	margin-bottom: var(--index-x);
+}
+
+.text_glav_one_number{
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.text_glav_one_icon {
+	width: 35%;
+	display: flex;
+	justify-content: space-between;
+}
+.text_glav_one_icon svg {
+	height: calc(var(--index-x)*.85);
+	width: calc(var(--index-x)*.85);
+}
+.text_glav_one_icon svg path{
+	fill: #fff;
+}
+
+.footer__text_column{
+	text-decoration: none;
+	color: #fff;
+	font-size: calc(var(--index-x)*.5);
+}
+
+.footer__br{
+	margin-top: var(--index-x);
+	width: 100%;
+	height: 1px;
+	background-color: #555555;
+}
+
+/*footer-footer*/
+.footer__footer{
+	width: 100%;
+
+	padding: calc(var(--index-x)*.7);
+	text-align: center;
+}
+
+.footer__footer_text{
+	font-size: calc(var(--index-x)*.43);
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 400;
+}

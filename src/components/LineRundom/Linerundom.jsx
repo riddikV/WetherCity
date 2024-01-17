@@ -1,3 +1,5 @@
+import cls from './Linerundom.module.css';
+
 import img1 from '../../assets/img/linePhoto/1.jpg';
 import img2 from '../../assets/img/linePhoto/2.jpg';
 import img3 from '../../assets/img/linePhoto/3.jpg';
@@ -8,63 +10,63 @@ import img7 from '../../assets/img/linePhoto/7.jpg';
 
 const Linerundom = () => {
 	return (
-		<div className="works">
-			<div className="works-col">
-				<div className="works-item">
-					<img className="works-img" src={ img1 } />
-					<div className="works-info">
-						<div className="works-text">Москва</div>
+		<div className={cls.works}>
+			<div className={cls.works__col}>
+				<div className={cls.works__item}>
+					<img className={cls.works__img} src={ img1 } alt='img1'/>
+					<div className={cls.works__info} >
+						<div className={cls.works__text} >Москва</div>
 					</div>
 				</div>
 
-				<div className="works-item">
-					<img className="works-img" src={ img2 } />
-					<div className="works-info">
-						<div className="works-text">Краснодар</div>
-					</div>
-				</div>
-			</div>
-
-
-			<div className="works-col">
-				<div className="works-item">
-					<img className="works-img" src={ img3 } />
-					<div className="works-info">
-						<div className="works-text">Сочи</div>
-					</div>
-				</div>
-
-				<div className="works-item">
-					<img className="works-img" src={ img4 } />
-					<div className="works-info">
-						<div className="works-text">Санкт-Петербург</div>
+				<div className={cls.works__item} >
+					<img className={cls.works__img} src={ img2 } alt='img2'/>
+					<div className={cls.works__info} >
+						<div className={cls.works__text} >Краснодар</div>
 					</div>
 				</div>
 			</div>
 
 
-			<div className="works-col">
-				<div className="works-item">
-					<img className="works-img" src={ img5 } />
-					<div className="works-info">
-						<div className="works-text">Екатеренбург</div>
+			<div className={cls.works__col}>
+				<div className={cls.works__item}>
+					<img className={cls.works__img} src={ img3 } alt='img3'/>
+					<div className={cls.works__info} >
+						<div className={cls.works__text} >Сочи</div>
+					</div>
+				</div>
+
+				<div className={cls.works__item} >
+					<img className={cls.works__img} src={ img4 } alt='img4'/>
+					<div className={cls.works__info} >
+						<div className={cls.works__text} >Санкт-Петербург</div>
 					</div>
 				</div>
 			</div>
 
 
-			<div className="works-col">
-				<div className="works-item">
-					<img className="works-img" src={ img6 } />
-					<div className="works-info">
-						<div className="works-text">Нижний новгород</div>
+			<div className={cls.works__col}>
+				<div className={cls.works__item}>
+					<img className={cls.works__img} src={ img5 } alt='img5'/>
+					<div className={cls.works__info}>
+						<div className={cls.works__text}>Екатеренбург</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div className={cls.works__col}>
+				<div className={cls.works__item}>
+					<img className={cls.works__img} src={ img6 } alt='img6'/>
+					<div className={cls.works__info} >
+						<div className={cls.works__text} >Нижний новгород</div>
 					</div>
 				</div>
 
-				<div className="works-item">
-					<img className="works-img" src={ img7 } />
-					<div className="works-info">
-						<div className="works-text">Владивосток</div>
+				<div className={cls.works__item} >
+					<img className={cls.works__img} src={ img7 } alt='img7'/>
+					<div className={cls.works__info} >
+						<div className={cls.works__text} >Владивосток</div>
 					</div>
 				</div>
 			</div>
